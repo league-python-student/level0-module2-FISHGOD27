@@ -23,7 +23,6 @@ def onclick(args):
 
     messagebox.showinfo(None, "You chose: " + args + ".\n"
                         + "The computer chose: " + opp_select(opponent_selection) + ".\n")
-
     if selection == opponent_selection:
         messagebox.showinfo(None, "No Winner. Play Again.")
     elif (selection == 1 and opponent_selection == 3) or (selection == 2 and opponent_selection == 1) or (

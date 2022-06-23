@@ -9,7 +9,8 @@ def crack_the_safe():
     # TODO: Your mission: Use the try_code method to crack the safe
     #  by trying all possible combinations
 
-
+    for i in range(10000000):
+        try_code(i)
 # ======================= DO NOT EDIT THE CODE BELOW =========================
 
 wekncrzpasfdkjhcfjse = random.randint(0, 999)

@@ -13,7 +13,17 @@ def animals():
 
     # TODO 1. Ask the user which animal they want, then see and
     #  hear the animal they chose using one of the methods below.
-
+    question = simpledialog.askstring(title='Animal', prompt='what animal would you like?')
+    if question == 'cow':
+        moo()
+    elif question == 'duck':
+        quack()
+    elif question == 'cat':
+        meow()
+    elif question == 'dog':
+        woof()
+    elif question == 'llama':
+        llama_scream()
     # TODO 2. Make it so that the user can keep entering new animals.
 
     # TODO 3. If the user enters 'exit', stop the program
@@ -46,28 +56,33 @@ def show_image(filename=None):
 
 
 def moo():
-    show_image('cow.jpg')
     playsound('moo.wav')
+    show_image('cow.jpg')
+
 
 
 def quack():
-    show_image('duck.jpg')
     playsound('quack.wav')
+    show_image('duck.jpg')
+
 
 
 def woof():
-    show_image('dog.jpg')
     playsound('woof.wav')
+    show_image('dog.jpg')
+
 
 
 def meow():
-    show_image('cat.jpg')
     playsound('meow.wav')
+    show_image('cat.jpg')
+
 
 
 def llama_scream():
-    show_image('llama.jpg')
     playsound('llama.wav')
+    show_image('llama.jpg')
+
 
 
 if __name__ == '__main__':
