@@ -16,7 +16,10 @@ def draw():
     # Write code here that uses the drawMole method to put a mole
     # in each of the holes
 
-
+    draw_mole(70,110)
+    draw_mole(300,50)
+    draw_mole(200,190)
+    draw_mole(295,340)
     pass
 
 # =================== DO NOT MODIFY THE CODE BELOW =====================

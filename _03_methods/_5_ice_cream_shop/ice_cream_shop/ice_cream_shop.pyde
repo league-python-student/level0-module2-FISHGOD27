@@ -13,12 +13,16 @@ def setup():
 
     # Use the add_scoop() function below to add as many scoops of ice cream
     # as you want. Choose a different flavor for each scoop.
-
+    add_scoop('strawberry')
+    add_scoop('vanilla')
+    add_scoop('chocolate')
+    add_sprinkle(20)
     # Use the add_sprinkle() function provided to add some sprinkles to your
     # ice cream.
 
     # Write code to add a cherry to the top of your ice cream. Hint: ellipse
-
+    fill('#FF0505')
+    ellipse(250,60,40,40)
 
 
 # ==================== DO NOT MODIFY THE CODE BELOW ============================
