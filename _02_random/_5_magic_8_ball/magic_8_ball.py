@@ -30,3 +30,8 @@ for i in range(10):
     # If the random number is 3
 
         # write your own answer
+    s1 = "5"
+
+    s2 = "7"
+
+    print(s1 + s2)
